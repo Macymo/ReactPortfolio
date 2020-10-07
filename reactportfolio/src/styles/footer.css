@@ -1,0 +1,36 @@
+.footer {
+    color:rosybrown;
+    font-size: 15px;
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    bottom: 50px;
+    height: 100px;
+    width: 100%;
+}
+
+.footerConnectCont {
+    text-transform: uppercase;
+    background-color: #343a40;
+    padding: 10px
+}
+
+.linkedImg {
+    max-width: 40px;
+}
+
+.gitImg {
+    margin-left: 5%;
+    max-width: 40px;
+}
+
+.footerNavCont {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    padding: 30px 0px 50px 0px;
+}
+
+#mm {
+    margin: 0%;
+}

@@ -6,6 +6,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <Link className="navbar-brand" to="/">Macy Molina</Link>
+        <p className="content">Web Developer • Creative Mind • Problem Solver</p>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
         </button>
