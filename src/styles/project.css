@@ -1,0 +1,81 @@
+.imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgCont {
+    position: relative;
+}
+
+.colorElement {
+	position:absolute;
+	top:50%;
+	left:50%;
+	pointer-events:none;
+	width:calc(100% - 50px);
+	height:calc(100% - 50px);
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+.imgBox .colorElement {
+	box-shadow:inset 0px 0px 0px 0px rgba(255,255,255,.25);
+	transition:all ease .5s;
+}
+.imgBox:hover .colorElement {
+	box-shadow:inset 0px 0px 0px 40px rgba(255,255,255,.25);
+	transition:all ease .5s .75s;
+}
+
+.colorElement:before {
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:0%;
+	height:0%;
+	opacity:0;
+	border-top: 1px #fff solid;
+	border-left: 1px #fff solid;
+	transition:all ease .25s .25s;
+}
+.colorElement:after {
+	content:"";
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:0%;
+	height:0%;
+	opacity:0;
+	border-right: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	transition:all ease .25s .25s;
+}
+.imgBox:hover .colorElement:before,
+.imgBox:hover .colorElement:after {
+	width:100%;
+	height:100%;
+	opacity:1;
+}
+.imgBox:hover .colorElement:before {
+	height:100%;
+	transition:all ease .25s 0s;
+}
+.imgBox:hover .colorElement:after {
+	width:100%;
+	transition:all ease .25s 0s;
+}
+.imgBox .imgCont:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.25);
+	transition: all ease .5s .5s;
+}
+.imgBox:hover .imgCont:after {
+    box-shadow: inset 0px 0px 0px 25px rgba(0,0,0,0.25);
+    transition: all ease .5s .5s;
+}
