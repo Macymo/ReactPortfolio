@@ -89,5 +89,98 @@
 }
 
 .row {
-	margin-bottom: 20%;
+	margin-bottom: 10%;
+}
+
+.imgBoxCont {
+	transition: all ease .5s .25s;
+    top: 0px;
+    right: 0px;
+    text-align: left;
+}
+.imgBox .imgBoxCont:before {
+	content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+	width: 70%;
+    height: 50%;
+    opacity: .8;
+}
+
+.imgBoxText {
+	transition: all ease .5s .25s;
+	position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 90%;
+    padding: 0px 30px;
+}
+
+.imgBox h2 {
+	text-align: center;
+	font-family: 'Proxima N W01 X Cd Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 49px;
+	margin: 0 0 0.3em;
+	color: white;
+}
+
+h2 {
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+.subtext {
+	color: #fff;
+	text-align: center;
+}
+
+.button {
+	border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: darkolivegreen;
+    border-color: rosybrown;
+    color: #fff;
+    transition: background-color 300ms ease-out;
+}
+
+.button a.button {
+	text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 0px 1em 0px;
+    font-size: 1em;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    color: #fefefe;
+    transition: all 0.25s ease-out;
+    text-align: center;
+    line-height: 1;
+    -webkit-appearance: none;
+	vertical-align: middle;
+	width: auto;
+    letter-spacing: 2px;
+    font-family: 'Proxima N W01 Reg', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
