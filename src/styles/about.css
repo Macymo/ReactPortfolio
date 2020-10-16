@@ -9,3 +9,22 @@
     border-style: solid;
     max-width: 15%;
 }
+
+.tag {
+    color: white;
+    text-transform: capitalize;
+}
+
+.skills {
+    font-family: 'Merienda', cursive;
+    margin-bottom: 10%;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .skills {
+      margin-bottom: 15%;
+    }
+  }

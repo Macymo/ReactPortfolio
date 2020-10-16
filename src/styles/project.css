@@ -1,10 +1,26 @@
+.container {
+    margin-left: 2%;
+    text-transform: capitalize;
+    margin-bottom: 8%;
+    width: 30%;
+    display: inline-grid;
+}
+
 .imgBox {
     position: relative;
     overflow: hidden;
 }
 
+.imgBoxText {
+    background-color: darkolivegreen;
+}
+
 .imgCont {
     position: relative;
+}
+.img-fluid{
+    margin-left: 25%;
+	max-width: 50%;
 }
 
 .colorElement {
@@ -97,14 +113,15 @@
     top: 0px;
     right: 0px;
     text-align: left;
-}
+} 
+
 .imgBox .imgBoxCont:before {
 	content: "";
     position: relative;
     top: 0px;
     left: 0px;
-	width: 70%;
-    height: 50%;
+	width: 100%;
+    height: 100%;
     opacity: .8;
 }
 
@@ -113,14 +130,14 @@
 	position: absolute;
     top: 50%;
     left: 0px;
-    width: 90%;
+    /* width: 100%; */
     padding: 0px 30px;
-}
+} 
 
 .imgBox h2 {
 	text-align: center;
-	font-family: 'Proxima N W01 X Cd Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 48px;
+	font-family: 'Merienda', cursive;
+	font-size: 48px;
     line-height: 49px;
 	margin: 0 0 0.3em;
 	color: white;
@@ -139,7 +156,7 @@ h2 {
 .subtext {
 	color: #fff;
 	text-align: center;
-}
+} 
 
 .button {
 	border-style: solid;
@@ -183,4 +200,28 @@ h2 {
 	width: auto;
     letter-spacing: 2px;
     font-family: 'Proxima N W01 Reg', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+} 
+
+@media (max-width: 992px) {
+    .imgBoxCont, .subtext, {
+        max-width: 1140px;
+    }
 }
+
+@media (max-width: 992px) {
+    .imgBoxText {
+        display: none;
+    }
+}
+  
+  @media screen and (max-width: 992px) {
+    .container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }

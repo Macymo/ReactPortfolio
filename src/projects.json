@@ -5,28 +5,28 @@
         "subtitle":"Schedule Your Day!",
         "image":"../assets/workDayScheduler.png",
         "site":"https://macymo.github.io/WorkDayScheduler/",
-        "code":"Live by GitHub Pages"
+        "code":"Live on GitHub Pages"
     },
     {
         "title":"Notes",
         "subtitle":"Make Some Notes!",
         "image":"../assets/noteTaker.png",
         "site":"https://macysnotetaker.herokuapp.com/",
-        "code":"Live by Heroku"
+        "code":"Live on Heroku"
     },
     {   
         "title":"Weather",
         "subtitle":"Check the Weather!",
         "image":"../assets/weatherDashboard.png",
         "site":"https://macymo.github.io/WeatherDashboard/",
-        "code":"Live by GitHub Pages"
+        "code":"Live on GitHub Pages"
     },
     {
         "title":"Fitness",
         "subtitle":"Track Your Fitness!",
         "image":"../assets/fitnessTracker.png",
         "site":"https://trackingfitness.herokuapp.com",
-        "code":"Live by Heroku"
+        "code":"Live on Heroku"
     },
     {
         "title":"Team Profiles",

@@ -7,14 +7,14 @@ import "../styles/project.css";
 
 function Project() {
     return (
-        projects.map((project) => { 
+        projects.map((project, i) => { 
         return (
-        <div className="container">
-            <div className="row">
+        <div key={i} className="container">
                 <div className="imgBox">
                     <div className="imgCont">
-                    <div className="imgBoxText"></div>
+                    <div className="imgBoxText">
                         <h2> { project.title }</h2>
+                        </div>
                     <img className="img-fluid" src={ project.image } alt="projects"></img> 
                     </div>
                     <div className="colorElement"></div>
@@ -28,7 +28,6 @@ function Project() {
                     </div>
                 </div>
             </div>
-        </div>
         )
     })
     );
