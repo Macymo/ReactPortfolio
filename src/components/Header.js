@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import Scroll from "react-scroll";
 import "../styles/header.css"
 
 function Header() {
@@ -19,13 +18,17 @@ function Header() {
                             to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="projects" duration={500}
-                            className="toProjects" activeclass={ Scroll }>Projects</Link>
+                        <a className="nav-link active" 
+                            href= "#scroll"
+                            >Projects
+                            </a>
                     </li>
                     <li className="nav-item">
-                        <Link className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"} 
-                            to="/contact">Contact</Link>
-                    </li>
+                        <a className="nav-link active"
+                            href="https://docs.google.com/document/d/1vYrzIts0Y4kfHZU6AVOTglwW30kN5NggXnpnEE_atKY/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
+                            >Résumé
+                            </a>   
+                    </li> 
                 </ul>
             </div>
         </nav>

@@ -10,7 +10,7 @@ function Project() {
         projects.map((project, i) => { 
         return (
         <div key={i} className="container">
-                <div className="imgBox">
+                <div id="scroll" className="imgBox">
                     <div className="imgCont">
                     <div className="imgBoxText">
                         <h2> { project.title }</h2>
@@ -19,8 +19,6 @@ function Project() {
                     </div>
                     <div className="colorElement"></div>
                     <div className="imgBoxCont">
-                        {/* <div className="imgBoxText"></div>
-                        <h2> { project.title }</h2> */}
                         <div className="subtext">
                             <p> { project.subtitle } </p>
                             <a className="button" href={ project.site } target="_blank" rel="noopener noreferrer">{ project.code }</a>

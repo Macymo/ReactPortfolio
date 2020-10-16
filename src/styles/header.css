@@ -4,7 +4,6 @@ body {
 
 nav {
     box-shadow: 10px 5px 5px black;
-
 }
 
 .navbar-brand {
@@ -22,4 +21,17 @@ nav {
     margin-block-start: 6%;
     color:rosybrown;
     margin-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-toggler {
+      margin-left: 42%;
+      max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-nav, .nav-link, .content {
+      text-align: -webkit-center;
+    }
 }

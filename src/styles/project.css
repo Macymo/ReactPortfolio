@@ -203,7 +203,7 @@ h2 {
 } 
 
 @media (max-width: 992px) {
-    .imgBoxCont, .subtext, {
+    .imgBoxCont, .subtext {
         max-width: 1140px;
     }
 }
