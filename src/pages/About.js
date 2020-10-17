@@ -5,7 +5,7 @@ import "../styles/about.css";
 
 const About = () => (
   <div>
-    <img id="profilePic" src="./assets/mm.jpg" alt="profilePicture"></img>
+    <img id="profilePic" src="src/assets/mm.jpg" alt="profilePicture"></img>
       <div className="about">
         <h2>Web developer from New Mexico, moved to North Carolina with the desire to learn new things and see new places. 
         After ten years as a Cosmetologist, with a background in developing creative solutions to ensure client satisfaction, 
