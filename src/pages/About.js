@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "../components/Project";
-import { Element } from "react-scroll";
 import "../styles/about.css";
 
 
@@ -15,13 +14,11 @@ const About = () => (
           </h2>
         <hr></hr>
         <h4 className="tag">Motivated to bring a high level of diligence and goal oriented drive into the creation of applications 
-          <h5>while continuously searching for new challenges to conquer.</h5>
+          <p>while continuously searching for new challenges to conquer.</p>
           </h4>
         <hr></hr>
       </div>
-    <Project>
-      <Element id="projects" name="projects" />
-    </Project>
+    <Project id="projects" name="projects" />
       <div className="skills">
         <hr></hr>
         HTML • CSS • JavaScript • JQuery • Mongo • React.js • Node.js • Express

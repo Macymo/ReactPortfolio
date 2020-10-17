@@ -24,7 +24,7 @@
     {
         "title":"Fitness",
         "subtitle":"Track Your Fitness!",
-        "image":"../assets/fitnessTracker.png",
+        "image":"/assets/fitnessTracker.png",
         "site":"https://trackingfitness.herokuapp.com",
         "code":"Live on Heroku"
     },
