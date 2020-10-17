@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://macymo.github.io/ReactPortfolio/about",
+  "homepage": "mmolinaportfolio.herokuapp.com",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
