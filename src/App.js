@@ -17,7 +17,6 @@ function App() {
         HTML • CSS • JavaScript • JQuery • Mongo • React.js • Node.js • Express
         <hr></hr>
         </div>
-
         <Footer />
       </div>
     </Router>

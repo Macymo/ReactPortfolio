@@ -159,6 +159,10 @@ h2 {
 	text-align: center;
 } 
 
+.subtext:hover {
+    background-color: darkolivegreen;
+}
+
 .button {
 	border-style: solid;
     border-width: 0;
