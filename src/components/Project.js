@@ -7,8 +7,6 @@ import fitness from "../assets/fitnessTracker.png";
 import team from "../assets/teamProfileGenerator.gif";
 import mdgenerator from "../assets/mdGenerator.gif";
 
-
-
 let projects = [
     {
         title:"Scheduler",

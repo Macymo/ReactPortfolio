@@ -6,9 +6,13 @@ const About = () => (
   <div>
     <img id="profilePic" src={profilepic} alt="profilePicture"></img>
       <div className="about">
-        <h2>Web developer from New Mexico, moved to North Carolina with the desire to learn new things and see new places. 
-        After ten years as a Cosmetologist, with a background in developing creative solutions to ensure client satisfaction, 
-        I'm channeling my creativity and problem solving through development.
+        <h2>Web developer from New Mexico, currently residing in Cary, North Carolina. 
+        <br></br>
+        After ten years as a Cosmetologist, with a background in developing creative solutions to ensure client satisfaction, a desire to learn new things and see new places,
+        I decided to move to North Carolina to take advantage of the many educational opportunites and pursue a career change.
+        <br></br>
+        I'm now channeling my creativity and problem solving through web development.
+        <br></br> 
         Team oriented and self motivated with experience working with teams for front-end and back-end applications, including MERN.
           </h2>
         <hr></hr>
