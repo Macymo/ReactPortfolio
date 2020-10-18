@@ -13,10 +13,6 @@ function Header() {
                 </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto text-right">
-                   <li className="nav-item">
-                        <Link className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"} 
-                            to="/about">About</Link>
-                    </li>
                     <li className="nav-item">
                         <a className="nav-link active" 
                             href= "#scroll"
