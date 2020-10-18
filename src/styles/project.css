@@ -159,8 +159,12 @@ h2 {
 	text-align: center;
 } 
 
-.subtext:hover {
+.imgBox:hover .subtext {
     background-color: darkolivegreen;
+}
+
+.imgBox:hover p {
+    margin: 0% 15% 0% 15%;
 }
 
 .button {
