@@ -1,9 +1,6 @@
 import React from "react";
-import projects from "../projects.json";
+import projects from "../assets/projects.json";
 import "../styles/project.css";
-
-
-
 
 function Project() {
     return (
@@ -15,7 +12,7 @@ function Project() {
                     <div className="imgBoxText">
                         <h2> { project.title }</h2>
                         </div>
-                    <img className="img-fluid" src={ project.image } alt="projects"></img> 
+                    <img className="img-fluid" src="src/assets/mm.jpg" alt="projects"></img> 
                     </div>
                     <div className="colorElement"></div>
                     <div className="imgBoxCont">
