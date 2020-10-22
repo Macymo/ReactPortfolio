@@ -174,7 +174,7 @@ h2 {
     line-height: normal;
     margin: 0 0 1.25rem;
     position: relative;
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     -webkit-appearance: none;
     border-radius: 0;
@@ -192,6 +192,8 @@ h2 {
 }
 
 .button a.button {
+    border-style: solid;
+    border:10%;
 	text-transform: uppercase;
     text-decoration: none;
     margin: 0px 0px 1em 0px;
