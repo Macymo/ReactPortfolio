@@ -168,7 +168,7 @@ h2 {
 
 .button {
 	border-style: solid;
-    cursor: pointer;
+    cursor: text;
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
     font-weight: normal;
     line-height: normal;
@@ -224,14 +224,23 @@ h2 {
     }
 }
   
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .container {
       width: 50%;
     }
-  }
+}
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
       width: 100%;
     }
+}
+
+@media screen and (max-width: 600px) {
+  .button a.button {
+    border-style: solid;
+    border:10%;
+    border-color: rgb(149, 141, 150);
+    text-decoration: underline;
   }
+}
