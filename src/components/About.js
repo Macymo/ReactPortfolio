@@ -9,7 +9,7 @@ const About = () => (
         <h2>Web developer from New Mexico, currently residing in Cary, North Carolina. 
         <br></br>
         After ten years as a Cosmetologist, I decided to move to North Carolina to take advantage of the many educational opportunites and pursue a career change.
-        I have an extensive background in developing creative solutions to ensure client satisfaction, a desire to learn new things and see new places.
+        I have an extensive background in developing creative solutions to ensure client satisfaction, and a desire to learn new things and see new places.
         <br></br>
         I'm now channeling my creativity and problem solving through web development.
         <br></br> 

@@ -13,9 +13,6 @@ function App() {
         <About />
         <Project id="projects" name="projects" />
         <div className="skills">
-        <hr></hr>
-        HTML • CSS • JavaScript • JQuery • Mongo • React.js • Node.js • Express
-        <hr></hr>
         </div>
         <Footer />
       </div>

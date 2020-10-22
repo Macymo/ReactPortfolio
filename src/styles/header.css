@@ -1,5 +1,5 @@
 body {
-    background-color: rosybrown;
+    background-color: rgb(201, 124, 124);
 }
 
 nav {
@@ -19,8 +19,7 @@ nav {
     font-family: 'Merienda', cursive;
     font-size: larger;
     margin-block-start: 6%;
-    color:rosybrown;
-    margin-left: 10%;
+    color:rgb(201, 124, 124);
 }
 
 @media screen and (max-width: 600px) {
