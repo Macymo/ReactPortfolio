@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02457afd81b2a6d1c98eb609ff64411c",
+    "revision": "b709d95434eb60efe33bd3ddb4220b95",
     "url": "/ReactPortfolio/index.html"
   },
   {
-    "revision": "34a85841ac192f3e707e",
+    "revision": "5232ba4996d059c02ebd",
     "url": "/ReactPortfolio/static/css/main.d5bb3b85.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactPortfolio/static/js/2.d7f67019.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34a85841ac192f3e707e",
-    "url": "/ReactPortfolio/static/js/main.4a307727.chunk.js"
+    "revision": "5232ba4996d059c02ebd",
+    "url": "/ReactPortfolio/static/js/main.da1bf674.chunk.js"
   },
   {
     "revision": "0114f5eceb8464d5d956",
     "url": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js"
   },
   {
-    "revision": "60358e5ab35cdc9945dc7acfb431893a",
-    "url": "/ReactPortfolio/static/media/fitnessTracker.60358e5a.png"
+    "revision": "ef44b703c2532b0dec006f862c086caa",
+    "url": "/ReactPortfolio/static/media/fitnessTracker.ef44b703.png"
   },
   {
     "revision": "39a9c411a12de13585b1f1d9ba2ca140",
