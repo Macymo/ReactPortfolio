@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.c924bdc2.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.37f1b655.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.37f1b655.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.82022a77.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.eccd266c.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.eccd266c.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js.map",
     "static/js/2.d7f67019.chunk.js": "/ReactPortfolio/static/js/2.d7f67019.chunk.js",
     "static/js/2.d7f67019.chunk.js.map": "/ReactPortfolio/static/js/2.d7f67019.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.f27bf416c74fb037850585bf75ab5404.js": "/ReactPortfolio/precache-manifest.f27bf416c74fb037850585bf75ab5404.js",
+    "precache-manifest.09499d96437d87d9d1305a748464d648.js": "/ReactPortfolio/precache-manifest.09499d96437d87d9d1305a748464d648.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
-    "static/css/main.c924bdc2.chunk.css.map": "/ReactPortfolio/static/css/main.c924bdc2.chunk.css.map",
+    "static/css/main.82022a77.chunk.css.map": "/ReactPortfolio/static/css/main.82022a77.chunk.css.map",
     "static/js/2.d7f67019.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.d7f67019.chunk.js.LICENSE.txt",
     "static/media/fitnessTracker.png": "/ReactPortfolio/static/media/fitnessTracker.105dbb2e.png",
-    "static/media/mdGenerator.gif": "/ReactPortfolio/static/media/mdGenerator.b6da9766.gif",
+    "static/media/mdGenerator.png": "/ReactPortfolio/static/media/mdGenerator.0652c370.png",
     "static/media/mm.jpg": "/ReactPortfolio/static/media/mm.57137208.jpg",
-    "static/media/noteTaker.png": "/ReactPortfolio/static/media/noteTaker.b13b0b97.png",
-    "static/media/teamProfileGenerator.gif": "/ReactPortfolio/static/media/teamProfileGenerator.44a85cae.gif",
-    "static/media/weatherDashboard.png": "/ReactPortfolio/static/media/weatherDashboard.fffc7d8f.png",
-    "static/media/workDayScheduler.png": "/ReactPortfolio/static/media/workDayScheduler.1c7ed83a.png"
+    "static/media/noteTaker.png": "/ReactPortfolio/static/media/noteTaker.7da51604.png",
+    "static/media/teamProfileGenerator.png": "/ReactPortfolio/static/media/teamProfileGenerator.4c2b2b20.png",
+    "static/media/weatherDashboard.png": "/ReactPortfolio/static/media/weatherDashboard.11f14333.png",
+    "static/media/workDayScheduler.png": "/ReactPortfolio/static/media/workDayScheduler.89f51b6c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5b3ce1ae.js",
     "static/js/2.d7f67019.chunk.js",
-    "static/css/main.c924bdc2.chunk.css",
-    "static/js/main.37f1b655.chunk.js"
+    "static/css/main.82022a77.chunk.css",
+    "static/js/main.eccd266c.chunk.js"
   ]
 }

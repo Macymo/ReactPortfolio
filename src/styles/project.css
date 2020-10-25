@@ -194,6 +194,7 @@ h2 {
 .button a.button {
     border-style: solid;
     border:10%;
+    border-color: rgb(149, 141, 150);
 	text-transform: uppercase;
     text-decoration: none;
     margin: 0px 0px 1em 0px;
