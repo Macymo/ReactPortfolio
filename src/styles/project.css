@@ -235,12 +235,3 @@ h2 {
       width: 100%;
     }
 }
-
-@media screen and (max-width: 600px) {
-  .button a.button {
-    border-style: solid;
-    border:10%;
-    border-color: rgb(149, 141, 150);
-    text-decoration: underline;
-  }
-}

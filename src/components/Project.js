@@ -4,8 +4,8 @@ import schdlr from "../assets/workDayScheduler.png";
 import notes from "../assets/noteTaker.png";
 import weather from "../assets/weatherDashboard.png";
 import fitness from "../assets/fitnessTracker.png";
-import team from "../assets/teamProfileGenerator.gif";
-import mdgenerator from "../assets/mdGenerator.gif";
+import team from "../assets/teamProfileGenerator.png";
+import mdgenerator from "../assets/mdGenerator.png";
 
 let projects = [
     {
