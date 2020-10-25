@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.378d960f.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.eccd266c.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.eccd266c.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.d5bb3b85.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.4a307727.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.4a307727.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js.map",
     "static/js/2.d7f67019.chunk.js": "/ReactPortfolio/static/js/2.d7f67019.chunk.js",
     "static/js/2.d7f67019.chunk.js.map": "/ReactPortfolio/static/js/2.d7f67019.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.a7466bc0aefb7234cd50eb460ae4fd75.js": "/ReactPortfolio/precache-manifest.a7466bc0aefb7234cd50eb460ae4fd75.js",
+    "precache-manifest.a402d707d7320d96a9e8b99f211ad1a3.js": "/ReactPortfolio/precache-manifest.a402d707d7320d96a9e8b99f211ad1a3.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
-    "static/css/main.378d960f.chunk.css.map": "/ReactPortfolio/static/css/main.378d960f.chunk.css.map",
+    "static/css/main.d5bb3b85.chunk.css.map": "/ReactPortfolio/static/css/main.d5bb3b85.chunk.css.map",
     "static/js/2.d7f67019.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.d7f67019.chunk.js.LICENSE.txt",
-    "static/media/fitnessTracker.png": "/ReactPortfolio/static/media/fitnessTracker.105dbb2e.png",
-    "static/media/mdGenerator.png": "/ReactPortfolio/static/media/mdGenerator.0652c370.png",
+    "static/media/fitnessTracker.png": "/ReactPortfolio/static/media/fitnessTracker.60358e5a.png",
+    "static/media/mdGenerator.png": "/ReactPortfolio/static/media/mdGenerator.39a9c411.png",
     "static/media/mm.jpg": "/ReactPortfolio/static/media/mm.57137208.jpg",
     "static/media/noteTaker.png": "/ReactPortfolio/static/media/noteTaker.7da51604.png",
     "static/media/teamProfileGenerator.png": "/ReactPortfolio/static/media/teamProfileGenerator.4c2b2b20.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b3ce1ae.js",
     "static/js/2.d7f67019.chunk.js",
-    "static/css/main.378d960f.chunk.css",
-    "static/js/main.eccd266c.chunk.js"
+    "static/css/main.d5bb3b85.chunk.css",
+    "static/js/main.4a307727.chunk.js"
   ]
 }
