@@ -1,13 +1,17 @@
 body {
-    background-color: rgb(201, 124, 124);
+    background: rgb(201, 124, 124);
+    background-image: url("../assets/chevron.jpg");
+    min-height: 100%;
+    background-blend-mode: exclusion;
+    background-repeat: round;
 }
 
 nav {
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 10px 10px black;
 }
 
 .navbar-brand {
-    font-family: 'Merienda', cursive;
+    font-family:'Poiret One', cursive;
     font-size: 55px;
 }
 
@@ -16,10 +20,10 @@ nav {
 }
 
 .content {
+    color: rgb(201, 124, 124);
     font-family: 'Merienda', cursive;
     font-size: larger;
     margin-block-start: 6%;
-    color:rgb(201, 124, 124);
 }
 
 @media screen and (max-width: 600px) {

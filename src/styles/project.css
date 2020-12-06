@@ -1,7 +1,7 @@
 .container {
     margin-left: 2%;
-    text-transform: capitalize;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 30%;
     display: inline-grid;
 }
@@ -12,7 +12,7 @@
 }
 
 .imgBoxText {
-    background-color: rgb(149, 141, 150);
+    background-color: black;
 }
 
 .imgCont {
@@ -159,7 +159,12 @@ h2 {
 } 
 
 .imgBox:hover .subtext {
-    background-color:  rgb(149, 141, 150);
+    color: white;
+    background-color:  black;
+}
+
+.imgBox:hover .imgBoxText {
+    padding-left: 15%;
 }
 
 .imgBox:hover p {
@@ -169,7 +174,7 @@ h2 {
 .button {
 	border-style: solid;
     cursor: pointer;
-    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-family: 'Merienda', cursive;
     font-weight: normal;
     line-height: normal;
     margin: 0 0 1.25rem;
@@ -179,39 +184,20 @@ h2 {
     -webkit-appearance: none;
     border-radius: 0;
     display: inline-block;
-    padding-top: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 1.0625rem;
-    padding-left: 2rem;
+    padding: 1rem;
     font-size: 1rem;
-    background-color: rgb(201, 124, 124);
-    border-color: rgb(149, 141, 150);
+    background-color: black;
     border:10%;
     color: #fff;
     background-color: 300ms ease-out;
 }
 
-.button a.button {
-    border-style: solid;
-    border:10%;
-    border-color: rgb(149, 141, 150);
-	text-transform: uppercase;
-    text-decoration: none;
-    margin: 0px 0px 1em 0px;
-    font-size: 1em;
-    display: inline-block;
-    cursor: pointer;
-    padding: 0.8em 1em;
-    color: #fefefe;
-    transition: all 0.25s ease-out;
-    text-align: center;
-    line-height: 1;
-    -webkit-appearance: none;
-	vertical-align: middle;
-	width: auto;
-    letter-spacing: 2px;
-    font-family: 'Proxima N W01 Reg', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-} 
+.site {
+    padding: 1rem;
+    color: white;
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+}
 
 @media (max-width: 992px) {
     .imgBoxCont, .subtext {
