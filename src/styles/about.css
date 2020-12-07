@@ -47,24 +47,11 @@ h2 {
     }
 }
 
-/* @media screen and (max-width: 600px) {
-    #profilePic {
-      margin-left: none; 
-      max-width: 100%;
-    }
-} */
-
 @media screen and (max-width: 600px) {
     .about {
         display: grid;
     }
 }
-
-/* @media (max-width: 600px) {
-    .about { 
-        display: grid;
-    }
-} */
 
 @media (min-width: 1200px) {
     h2 {
