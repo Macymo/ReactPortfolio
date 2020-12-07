@@ -34,26 +34,45 @@ h2 {
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1200px) {
     .skills {
       margin-bottom: 15%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     #profilePic {
-      margin-left: 25%;
+      margin-left: 25%; 
       max-width: 50%;
     }
 }
 
-@media (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
+    #profilePic {
+      margin-left: none; 
+      max-width: 100%;
+    }
+} */
+
+@media screen and (max-width: 600px) {
     .about {
         display: grid;
     }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
+    .about { 
+        display: grid;
+    }
+} */
+
+@media (min-width: 1200px) {
+    h2 {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 600px) {
     h2 {
         padding: 5px;
     }
