@@ -17,12 +17,7 @@ function Footer() {
             <img className="gitImg" src={github} alt="GitHub"></img>
             </a>
         </div>
-        {/* <div className="row">
-            <div className="col-sm-12">
-                <h1>Contact</h1>
-            </div>
-        </div> */}
-        <form action="mailto:macymol23@gmail.com" method="post" encType="text/plain">
+        <form action="mailto:macymol23@gmail.com" method="POST" encType="text/plain">
             <section className="form-row">
                 <div className="form-group col-md-6">
                     <label htmlFor="inputName">First Name</label>

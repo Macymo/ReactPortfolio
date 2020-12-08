@@ -64,3 +64,9 @@ form {
     padding: 13px 15px 15px 15px;
     background-color: rgba(0,0,0,.15);
 }
+
+@media screen and (max-width: 600px) {
+    form {
+      display: none;
+    }
+}
