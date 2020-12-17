@@ -17,31 +17,9 @@ function Footer() {
             <img className="gitImg" src={github} alt="GitHub"></img>
             </a>
         </div>
-        <form action="mailto:macymol23@gmail.com" method="POST" encType="text/plain">
-            <section className="form-row">
-                <div className="form-group col-md-6">
-                    <label htmlFor="inputName">First Name</label>
-                    <input name="firstName" type="name" className="form-control" id="inputName"></input>
-                </div>
-                <div className="form-group col-md-6">
-                    <label htmlFor="inputName">Last Name</label>
-                    <input name="lastName"type="name" className="form-control" id="inputName"></input>
-                </div>
-            </section>
-            <section className="form-row">
-                <div className="form-group col-md-12">
-                    <label htmlFor="inputEmail4">Email</label>
-                    <input name="email" type="email" className="form-control" id="inputEmail4"></input>
-                </div>
-            </section>
-            <section className="form-row">
-                <div className="form-group col-lg-12">
-                    <label htmlFor="inputMessage">Message</label>
-                    <textarea name="message" type="text" className="form-control" id="inputMessage"></textarea>
-                </div>
-                <button id="submitBtn" type="submit" className="btn btn-primary">Submit</button>
-            </section>
-        </form>     
+        <div className="contact">
+        <a id="email" href="macymol23@gmail.com"> macymol23@gmail.com </a>
+        </div>
         <div className="footerNavCont">
             <p role="img" id="mm">Made by MM<span role="img" aria-label="jsx-a11y/accessible-emoji">❤️</span>
             </p>
