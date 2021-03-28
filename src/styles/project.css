@@ -154,13 +154,12 @@ h2 {
 }
 
 .subtext {
-	color:black;
+	color:white;
 	text-align: center;
 } 
 
 .imgBox:hover .subtext {
-    color: white;
-    background-color:  black;
+    background-color: #343a40;
 }
 
 .imgBox:hover .imgBoxText {

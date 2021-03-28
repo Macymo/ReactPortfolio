@@ -1,8 +1,13 @@
 .about {
+    color: white;
     display: flex;
     margin: 5%;
     text-align: center;
     font-family: 'Poiret One', cursive;
+}
+
+.aboutPara{
+    margin-block-start: 2em;
 }
 
 h2 {
@@ -10,11 +15,9 @@ h2 {
     display: block;
     font-size: 1.5em;
     font-weight: bold;
-    background-color: rgba(201, 124, 124, 0.8);
 }
 
 #profilePic { 
-    box-shadow: 10px 10px 10px black;
     border-style: solid;
     max-width: 15%;
 }

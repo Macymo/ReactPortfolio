@@ -9,7 +9,7 @@
 }
 
 .footerConnectCont {
-    color:rgb(201, 124, 124);
+    color:white;
     background-color: #343a40;
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
@@ -31,7 +31,7 @@ h1 {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5px;
-    background-color: rgb(201, 124, 124);
+    background-color: white;
 }
 
 #email {
@@ -39,16 +39,8 @@ h1 {
     text-decoration: none;
 }
 
-#submitBtn {
-    margin: auto;
-    color: rgb(201, 124, 124);
-    background-color: #343a40;
-    outline: #343a40;
-    border-color: #343a40;
-}
-
 .footerNavCont {
-    color:rgb(201, 124, 124);
+    color:white;
     background-color: black;
     text-align: center;
     position: relative;
@@ -60,8 +52,6 @@ h1 {
 }
 
 .topButton {
-    bottom: 0px;
-    left: 50%;
     color: #f4f5ff;
     font-size: 16px;
     line-height: 1em;

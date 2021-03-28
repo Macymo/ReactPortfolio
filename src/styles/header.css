@@ -1,17 +1,21 @@
 body {
-    background: rgb(201, 124, 124);
-    background-image: url("../assets/chevron.jpg");
+    background: black;
     min-height: 100%;
     background-blend-mode: exclusion;
     background-repeat: round;
 }
 
 nav {
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px white;
+}
+
+.nav-item {
+    font-size: x-large;
+    font-family: 'Poiret One', cursive;
 }
 
 .navbar-brand {
-    font-family:'Poiret One', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 55px;
 }
 
@@ -20,10 +24,11 @@ nav {
 }
 
 .content {
-    color: rgb(201, 124, 124);
-    font-family: 'Merienda', cursive;
+    color: white;
+    font-family: 'Poiret One', cursive;
     font-size: larger;
     margin-block-start: 6%;
+    margin-left: 10%;
 }
 
 @media screen and (max-width: 600px) {

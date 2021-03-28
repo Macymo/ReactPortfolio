@@ -21,12 +21,12 @@ function Footer() {
         <a id="email" href="macymol23@gmail.com"> macymol23@gmail.com </a>
         </div>
         <div className="footerNavCont">
+            <a className="topButton scroll-anchor-link" href="#top">
+            Back To Top<FontAwesomeIcon icon={faArrowCircleUp} /></a>
             <p role="img" id="mm">Made by MM<span role="img" aria-label="jsx-a11y/accessible-emoji">❤️</span>
             </p>
             <p id="year">2020
             </p>
-            <a className="topButton scroll-anchor-link" href="#top">
-            Back To Top<FontAwesomeIcon icon={faArrowCircleUp} /></a>
         </div>
     </footer>
   );
