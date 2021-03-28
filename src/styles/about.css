@@ -22,10 +22,15 @@ h2 {
     max-width: 15%;
 }
 
+hr {
+    background-color: white;
+    box-shadow: 5px 5px 5px white;
+}  
+
 .tag {
     text-align: center;
     font-family: 'Merienda', cursive;
-    color: black;
+    color: rgb(151, 150, 150);
     text-transform: capitalize;
 }
 
