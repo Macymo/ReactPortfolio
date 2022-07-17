@@ -1,11 +1,9 @@
 import React from "react";
 import "../styles/about.css";
-import profilepic from "../assets/mm.jpg";
 
 const About = () => (
   <div>
       <div className="about">
-        <img id="profilePic" src={profilepic} alt="profilePicture"></img>
         <h2 className="aboutPara">Web developer from New Mexico, currently residing in the Triangle area of North Carolina. 
           <br></br>
         I have an extensive background in developing creative solutions to ensure client satisfaction, and a desire to learn new things and see new places.
